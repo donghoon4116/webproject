@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
-{% load static %}<!DOCTYPE html>
+{% load static %}
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -78,11 +79,10 @@
         </div>
         <div>
             <input type="button" onclick="run()" value="RUN" style="width: 5vh; height: 3vh; margin: 1.5vh 0;">
-            
+            <input type="button" onclick="save()" value="SAVE" style="width: 5vh; height: 3vh; margin: 1.5vh 0;">
         </div>
         <div style="width: 50vw; height: 30vh; border: 1px solid gray; background-color: gray;">
             <div class="output" style="height: 100%;">
-
             </div>
         </div>
     </div>
